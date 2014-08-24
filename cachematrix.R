@@ -32,8 +32,3 @@ cacheSolve <- function(x, ...) {
     x$setInverse(m)
     m
 }
-
-
-https://github.com/rajeevdave76/ProgrammingAssignment2
-
-e7fbbbd2346435a39ff5bd482606aebb6c5df42f
