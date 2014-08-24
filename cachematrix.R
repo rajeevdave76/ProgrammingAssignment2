@@ -4,10 +4,10 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-    inverse <- NULL
+    m <- NULL
     set <- function(y) {
         x <<- y
-        inverse <<- NULL
+        m <<- NULL
     }
     get <- function() x
     setInverse <- function(inverse) m <<- inverse
@@ -32,3 +32,8 @@ cacheSolve <- function(x, ...) {
     x$setInverse(m)
     m
 }
+
+
+https://github.com/rajeevdave76/ProgrammingAssignment2
+
+e7fbbbd2346435a39ff5bd482606aebb6c5df42f
